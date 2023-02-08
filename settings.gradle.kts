@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "calcar"
 include(":app")
 include(":app-calcar-catalog")
+include(":core:designsystem")

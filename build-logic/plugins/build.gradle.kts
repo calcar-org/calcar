@@ -24,5 +24,13 @@ gradlePlugin {
             id = "calcar.android.application.compose"
             implementationClass = "AndroidApplicationComposePlugin"
         }
+        register("androidLibrary") {
+            id = "calcar.android.library"
+            implementationClass = "AndroidLibraryPlugin"
+        }
+        register("androidLibraryCompose") {
+            id = "calcar.android.library.compose"
+            implementationClass = "AndroidLibraryComposePlugin"
+        }
     }
 }
